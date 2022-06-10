@@ -1,0 +1,80 @@
+.cases-data {
+  margin-left: 1.5rem;
+  .cases-data-top {
+    border-bottom: 2px solid rgb(0, 119, 255);
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+
+    span {
+      font-size: 0.9rem;
+      margin: 0 0.5rem;
+      padding: 0.3rem 1rem;
+      background-color: #0093e9;
+      background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+      border-radius: 1.5rem;
+      color: #fff;
+    }
+  }
+
+  .cases {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+
+    .active-cases {
+      background-color: rgb(28, 28, 255);
+      color: #fff;
+      padding: 0.4rem 0.5rem;
+      border-radius: 0.5rem;
+      text-align: center;
+      margin-right: 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    .new-cases {
+      background-color: rgb(223, 152, 0);
+      color: #fff;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      text-align: center;
+      margin-right: 0.5rem;
+      font-size: 1.2rem;
+    }
+    .critical-cases {
+      background-color: rgb(255, 51, 51);
+      color: #fff;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      text-align: center;
+      margin-right: 0.5rem;
+      font-size: 1.2rem;
+    }
+    .recovered-cases {
+      background-color: rgb(7, 221, 0);
+      color: #fff;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      text-align: center;
+      margin-right: 0.5rem;
+      font-size: 1.2rem;
+    }
+    .total-cases {
+      background-color: rgb(204, 2, 194);
+      color: #fff;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      text-align: center;
+      margin-right: 0.5rem;
+      font-size: 1.2rem;
+    }
+    .total-deaths {
+      background-color: rgb(255, 31, 31);
+      color: #fff;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      text-align: center;
+      font-size: 1.2rem;
+    }
+  }
+}
